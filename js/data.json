@@ -1,17 +1,17 @@
 [
   {
-    'name':'David Ar',
-    'title':'Founder',
-    'company':'Veecho' 
+    "name":"David Ar",
+    "title":"Founder",
+    "company":"Veecho" 
   },
   {
-    'name':'Nate Kipp',
-    'title':'Founder',
-    'company':'TeamDesktop' 
+    "name":"Nate Kipp",
+    "title":"Founder",
+    "company":"TeamDesktop" 
   },
   {
-    'name':'Scott Brewster',
-    'title':'Founder',
-    'company':'Dragon Scale' 
+    "name":"Scott Brewster",
+    "title":"Founder",
+    "company":"Dragon Scale" 
   }
 ]
