@@ -3,13 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Up and Running with AngularJS</title>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.9/angular.min.js"></script>	
+	<script src="lib/angular/angular.min.js"></script>	
 	<script src="js/controllers.js"></script>	
 </head>
 <body>
+	<input type="text" ng-model="name">
+	<h2>Welcome {{ name }}</h2>
+
 	<div ng-controller = "MyController">
-		<h1>{{ author.name }}</h1>
-		<p>{{ author.title + ', ' + author.company }}</p>
+		<ul>
+		<li ng-repeat="item in artist">{{ artist.name }} : {{ artist.title + ', ' + artist.company }}</li>
+		</ul>
 	</div>
 </body>
 </html>

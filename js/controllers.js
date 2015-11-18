@@ -1,10 +1,9 @@
 var myApp = angular.module('myApp', []);
 
-myApp.controller('MyController', function MyController(#scope) {
+myApp.controller('MyController', function MyController($scope, $http) {
+  $http.get('js/data.json').success(function(data) {
+    $scope.artists = data;
+  }); 
+   
 
-  $scope.author = {
-    'name'    : 'David Ar',
-    'title'   : 'Founder',
-    'company' : 'Veecho' 
-  }
 });
