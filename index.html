@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Up and Running with AngularJS</title>
-	<script src="lib/angular/angular.min.js"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.9/angular.min.js"></script>	
 	<script src="js/controllers.js"></script>	
 </head>
 <body>
@@ -12,7 +12,7 @@
 
 	<div ng-controller = "MyController">
 		<ul>
-		<li ng-repeat="item in artist">{{ artist.name }} : {{ artist.title + ', ' + artist.company }}</li>
+		<li ng-repeat="item in artist">{{ artist.name + ': ' +  artist.title + ', ' + artist.company }}</li>
 		</ul>
 	</div>
 </body>
