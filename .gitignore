@@ -2,4 +2,3 @@ README.md
 gruntfile.js
 node_modules/
 .DS_Store
-lib/
